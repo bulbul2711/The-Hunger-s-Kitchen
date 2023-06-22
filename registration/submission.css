@@ -1,0 +1,49 @@
+body {
+    /* max-height: 100vh; */
+    background: url("./pw2.jpg");
+    margin: 0;
+    background-position: 10%;
+    background-position-y: 55%;
+}
+
+.sbt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 20rem 3rem 20rem;
+    text-align: center;
+    padding: 8rem;
+    background: rgba(13, 85, 142, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: initial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Oleo Script', cursive;
+    border-radius: 2rem;
+    max-height: 20vh;
+}
+
+.emoti {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.head {
+    padding: 0.6rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.89);
+    /* height: 0%; */
+}
+
+.head a {
+    text-decoration: none !important;
+    color: white !important;
+}

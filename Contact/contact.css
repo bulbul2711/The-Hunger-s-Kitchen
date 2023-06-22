@@ -1,0 +1,253 @@
+/* NAV */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-head {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 0 0 auto;
+    background: linear-gradient(rgba(23, 22, 22, 0.5), transparent);
+    max-height: 10vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+li,
+button,
+label,
+input,
+a,
+p {
+    font-size: 2.5rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    min-height: 10vh;
+    width: 100%;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.89);
+
+}
+
+nav .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 1 10rem;
+    color: WHITE;
+    font-size: 4REM;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 1 40rem;
+    margin: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.active {
+    background-color: #717171;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+/* CONTACT */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 3rem;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: url("./cud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    background: rgba(19, 28, 39, 0.8);
+}
+
+.formbold-mb-5 {
+    /* margin-bottom: 1rem; */
+    padding: 2rem;
+}
+
+.formbold-pt-3 {
+    padding-top: 12px;
+}
+
+.formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+
+.formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    /* background: white; */
+}
+
+.formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 12px;
+    padding-left: 1.5rem;
+}
+
+.formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.formbold-form-input {
+    width: 85%;
+    padding: 1.5rem;
+    margin-left: 1rem;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+}
+
+.formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #ff4949;
+    color: white;
+    cursor: pointer;
+}
+
+.formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 1.6rem;
+}
+
+/* FOOTER */
+
+footer {
+    color: white;
+    background: #1d1b1b;
+}
+
+.footer-wrapper {
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+
+footer h5 {
+    flex: 1 1 40rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Button focus to make website accessible */
+
+button:focus {
+    background: #2c3f57;
+    outline-style: solid;
+    outline-color: cornflowerblue;
+}
+
+H5 {
+    font-size: 2REM;
+}
+
+@media (min-width: 540px) {
+    .sm\:w-half {
+        width: 50%;
+    }
+}

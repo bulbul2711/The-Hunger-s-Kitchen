@@ -1,0 +1,245 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.main-head {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 0 0 auto;
+    background: linear-gradient(rgba(23, 22, 22, 0.5), transparent);
+    max-height: 11vh;
+}
+
+p i {
+    font-weight: 900;
+    color: rgb(225, 225, 225);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+li,
+button,
+label,
+input,
+a,
+p {
+    font-size: 2.5rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    background-color: #717171;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    min-height: 10vh;
+    width: 100%;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.89);
+
+}
+
+nav .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 1 10rem;
+    color: WHITE;
+    font-size: 4REM;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex: 1 1 40rem;
+    margin: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* INTRO */
+.intro {
+    /* margin-top: 2.3rem; */
+    display: flex;
+    flex-direction: row;
+    max-height: 20vh;
+    padding: 20rem;
+    justify-content: center;
+    align-items: center;
+    background: url(./st.jpg);
+    color: white;
+    background-position: 30%;
+    background-size: cover;
+}
+
+.intro h1 {
+    background: rgba(0, 0, 0, 0.69);
+    padding: 2.5rem 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.intro p {
+    padding: 0;
+
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+/* MAIN */
+
+.m1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10rem;
+}
+
+.m1 p {
+    padding: 3rem;
+    margin-right: 3rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.m1 b {
+    font-size: 2.8rem;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.m1 img {
+    width: 40rem;
+}
+
+.m2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8rem;
+    background: #0E0506;
+    color: white;
+}
+
+.m2 p {
+    padding: 3rem;
+    margin-right: 3rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.m2 img {
+    max-height: 30rem;
+    max-width: 80rem;
+    padding: 4rem 16rem;
+    margin-top: 6rem;
+}
+
+.m2 b {
+    font-size: 3.8rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* VISION */
+.vision {
+    background: #FFE3E1;
+    margin-top: 0;
+}
+
+.vision h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    padding-top: 3rem;
+}
+
+.litem1 {
+    display: flex;
+    padding: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.litem1 img {
+    width: 13rem;
+    height: 13rem;
+    margin: 3rem 2rem 0 5rem;
+}
+
+.litem1 p {
+    /* padding: 3rem; */
+    margin-right: 3rem;
+    font-size: 2.3rem;
+    line-height: 4rem;
+    padding-left: 4rem;
+
+}
+
+.litem1 b {
+    color: rgb(67, 67, 237);
+    font-size: 3.8rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* FOOTER */
+
+
+footer {
+    color: white;
+    background: #1d1b1b;
+    margin: 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+
+footer h5 {
+    flex: 1 1 40rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
